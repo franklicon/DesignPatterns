@@ -1,0 +1,8 @@
+namespace DesignPatterns.IteratorDP;
+
+public interface IIterator<T>
+{
+    bool HasNext();
+    T Next();
+    void Reset();
+}

@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DesignPatterns.IteratorDP;
 
-Console.WriteLine("Hello, World!");
+// Iterator client
+IAggregate<int> aggregate = new Aggregate<int>();
+
+aggregate.Add(1);
+aggregate.Add(2);
+aggregate.Add(3);
+
+IIterator<int> iterator = aggregate.CreateIterator();
+
+while (iterator.HasNext())
+{
+    Console.WriteLine(iterator.Next());
+}
