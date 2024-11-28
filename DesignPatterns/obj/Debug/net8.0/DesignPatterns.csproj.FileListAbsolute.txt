@@ -1,0 +1,14 @@
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/bin/Debug/net8.0/DesignPatterns
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/bin/Debug/net8.0/DesignPatterns.deps.json
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/bin/Debug/net8.0/DesignPatterns.runtimeconfig.json
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/bin/Debug/net8.0/DesignPatterns.dll
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/bin/Debug/net8.0/DesignPatterns.pdb
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.AssemblyInfo.cs
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.dll
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/refint/DesignPatterns.dll
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.pdb
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/DesignPatterns.genruntimeconfig.cache
+/Users/fliconcolon/Documents/DesignPatterns/DesignPatterns/obj/Debug/net8.0/ref/DesignPatterns.dll
