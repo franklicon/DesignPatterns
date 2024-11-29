@@ -1,4 +1,4 @@
-namespace DesignPatterns.IteratorDP;
+namespace DesignPatterns.IteratorDP.Generic;
 
 public class Iterator<T>(Aggregate<T> aggregate) : IIterator<T>
 {

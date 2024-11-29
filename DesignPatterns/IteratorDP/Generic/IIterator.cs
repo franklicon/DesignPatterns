@@ -1,4 +1,4 @@
-namespace DesignPatterns.IteratorDP;
+namespace DesignPatterns.IteratorDP.Generic;
 
 public interface IIterator<T>
 {
