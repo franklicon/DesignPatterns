@@ -1,4 +1,4 @@
-namespace DesignPatterns.IteratorDP.Primes;
+namespace DesignPatterns.IteratorDP.PrimesExample;
 
 public class PrimeCollection(int count) : IPrimeCollection
 {
