@@ -1,5 +1,7 @@
 using DesignPatterns.Behavioral.IteratorDP.GenericExample;
 using DesignPatterns.Behavioral.IteratorDP.PrimesExample;
+using DesignPatterns.Behavioral.MediatorDP.BaseExample;
+using DesignPatterns.Behavioral.MediatorDP.ChatRoomExample;
 
 namespace DesignPatterns.Clients;
 
@@ -27,5 +29,32 @@ public static class BehavioralClient
         {
             Console.WriteLine(primeIterator.Next());
         }
+    }
+    
+    public static void AddMediatorClient()
+    {
+        // Base Mediator client.
+        Console.WriteLine("Base Mediator Client");
+        ColleagueA colleagueA = new();
+        ColleagueB colleagueB = new();
+        ConcreteMediator concreteMediator = new(colleagueA, colleagueB);
+        colleagueA.OperationA();
+        colleagueB.OperationB();
+        
+        // Chat Room Mediator client
+        Console.WriteLine("Chat Room Mediator Client");
+        RegularUser alice  = new("Alice");
+        RegularUser bob = new("Bob");
+        AdminUser charlie = new("Charlie");
+
+        ChatRoom chatRoom = new();
+        chatRoom.AddUser(alice);
+        chatRoom.AddUser(bob);
+        chatRoom.AddUser(charlie);
+
+        charlie.Send("Welcome, I'm Charlie!");
+        alice.Send("Hello, everyone!!");
+        bob.Send("Hi, Alice");
+        charlie.BroadcastAlert("Keep it friendly, guys!");
     }
 }
