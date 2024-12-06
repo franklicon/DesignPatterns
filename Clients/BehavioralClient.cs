@@ -21,7 +21,7 @@ public static class BehavioralClient
 
         // Primes Iterator client
         Console.WriteLine("Primes Iterator Client");
-        IPrimeCollection primes = new PrimeCollection(150);
+        var primes = new PrimeCollection(150);
         var primeIterator = primes.CreateIterator();
         while (primeIterator.HasNext())
         {
