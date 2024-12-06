@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DesignPatterns.Clients;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("----Behavioral client: Iterator DP----");
+BehavioralClient.AddIteratorClient();
